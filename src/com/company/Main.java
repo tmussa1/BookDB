@@ -13,7 +13,7 @@ public class Main {
             System.out.println("Enter your favorite movies and Q to quit: ");
             String keyboard = input.next();
 
-            if(keyboard.charAt(0) == 'Q'){
+            if(keyboard.charAt(0) == 'Q'|| keyboard.charAt(0) == 'q'){
                 break;
             }
 
